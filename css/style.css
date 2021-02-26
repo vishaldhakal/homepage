@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 1.7rem !important;
+}
+.btn-mine {
+  background-color: #ff6200 !important;
+  color: rgb(255, 255, 255) !important;
+}
+.btn-mine:hover {
+  background-color: #e05600 !important;
+}
+.main {
+  background: url("../img/house.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p-mine {
+  padding: 0rem 0rem 5rem 0rem;
+}
+.animpara {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 5rem;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+.cities {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+.no-border {
+  border: none;
+}
+.no-border:focus {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: 0;
+}
+.mytitle {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #313131;
+}
+.fields {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f3fa;
+}
+.fields:focus {
+  outline: none;
+}
+.mess {
+  padding: 2rem 1rem;
+}
+.sendbtn {
+  background-color: #ff6200;
+  color: white;
+  border-radius: 100px;
+  border: 1px solid #ff6200;
+}
+.sendbtn:hover {
+  color: #ff6200;
+  background-color: white;
+  border: 1px solid #ff6200;
+}
+.text-mine {
+  color: #252424;
+}

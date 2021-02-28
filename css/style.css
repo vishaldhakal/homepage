@@ -7,8 +7,12 @@
   font-family: "Poppins", sans-serif;
 }
 .navbar-brand {
+  color: #000;
   font-weight: bolder;
   font-size: 1.7rem !important;
+}
+.navbar-brand:hover {
+  color: #000;
 }
 .btn-mine {
   background-color: #ff6200 !important;
@@ -17,14 +21,8 @@
 .btn-mine:hover {
   background-color: #e05600 !important;
 }
-.main {
-  background: url("../img/house.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .p-mine {
-  padding: 0rem 0rem 5rem 0rem;
+  padding: 5rem 0rem 5rem 0rem;
 }
 .animpara {
   white-space: nowrap;
@@ -35,7 +33,7 @@
 }
 .cities {
   font-size: 1rem;
-  color: #ffffff;
+  color: #000000;
   font-weight: 500;
 }
 .no-border {
@@ -78,4 +76,18 @@
 }
 .text-mine {
   color: #252424;
+}
+.foot-up-img {
+  opacity: 0.02;
+  margin-bottom: -1px;
+  overflow: hidden;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list a {
+  text-decoration: none;
+  color: rgb(63, 58, 58);
+  padding: 3px 0px;
 }
